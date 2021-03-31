@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Aufgabenstellung}{2}%
+\contentsline {section}{\numberline {2}Grober Überblick der Wissenschaft und Technik}{2}%
+\contentsline {subsection}{\numberline {2.1}Impedanzregelung}{3}%
+\contentsline {subsection}{\numberline {2.2}Hybride Kraft-/Lageregelung}{3}%
+\contentsline {section}{\numberline {3}Komponenten}{4}%
+\contentsline {section}{\numberline {4}Konzept für die Umsetzung}{6}%
+\contentsline {subsection}{\numberline {4.1}Fügen}{7}%
+\contentsline {section}{\numberline {5}Literaturliste}{8}%
