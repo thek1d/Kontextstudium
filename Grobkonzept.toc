@@ -1,8 +1,11 @@
 \contentsline {section}{\numberline {1}Aufgabenstellung}{2}%
 \contentsline {section}{\numberline {2}Grober Überblick der Wissenschaft und Technik}{2}%
-\contentsline {subsection}{\numberline {2.1}Impedanzregelung}{3}%
-\contentsline {subsection}{\numberline {2.2}Hybride Kraft-/Lageregelung}{3}%
-\contentsline {section}{\numberline {3}Komponenten}{4}%
-\contentsline {section}{\numberline {4}Konzept für die Umsetzung}{6}%
-\contentsline {subsection}{\numberline {4.1}Fügen}{7}%
-\contentsline {section}{\numberline {5}Literaturliste}{8}%
+\contentsline {subsection}{\numberline {2.1}Hybride Kraft-/Lageregelung}{3}%
+\contentsline {subsection}{\numberline {2.2}Impedanzregelung}{3}%
+\contentsline {subsubsection}{\numberline {2.2.1}Impedanzregler im LBR iiwa 7 R800}{4}%
+\contentsline {section}{\numberline {3}Komponenten}{5}%
+\contentsline {section}{\numberline {4}Konzeptideen für die Umsetzung}{7}%
+\contentsline {subsection}{\numberline {4.1}Fügen}{8}%
+\contentsline {section}{\numberline {5}Weiteres Vorgehen}{9}%
+\contentsline {section}{\numberline {6}Literaturliste}{9}%
+\contentsline {subsection}{\numberline {6.1}Weitere Interessante Literatur}{10}%

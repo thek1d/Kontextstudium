@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.13)  31 MAR 2021 23:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.13)  1 APR 2021 12:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -60,20 +60,20 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./Grobkonzept.aux)
 \openout1 = `Grobkonzept.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -98,9 +98,9 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 11.
+(Font)              <14.4> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 11.
+(Font)              <7> on input line 10.
 
 (./Grobkonzept.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -116,107 +116,148 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (21.06378pt too wide) in paragraph at lines 19--19
+Overfull \hbox (21.06378pt too wide) in paragraph at lines 18--18
 []\OT1/cmr/bx/n/17.28 Grober []Uberblick der Wis-senschaft und Tech-
  []
 
 
-Overfull \hbox (2.53343pt too wide) in paragraph at lines 24--26
+Overfull \hbox (2.53343pt too wide) in paragraph at lines 23--25
 \OT1/cmr/m/n/12 In dieser Form ar-beiten Ma-nip-u-la-tor und Op-er-a-tor zeitli
 ch und r^^?aumlich
  []
 
 [2]
-<img/Impedanzregler.png, id=13, 396.48125pt x 152.57pt>
-File: img/Impedanzregler.png Graphic file (type png)
-<use img/Impedanzregler.png>
-Package pdftex.def Info: img/Impedanzregler.png  used on input line 53.
-(pdftex.def)             Requested size: 317.18542pt x 122.05615pt.
-<img/Hybride_Kraft_Lageregelung.png, id=14, 671.50874pt x 212.795pt>
+<img/Hybride_Kraft_Lageregelung.png, id=13, 671.50874pt x 212.795pt>
 File: img/Hybride_Kraft_Lageregelung.png Graphic file (type png)
 <use img/Hybride_Kraft_Lageregelung.png>
 Package pdftex.def Info: img/Hybride_Kraft_Lageregelung.png  used on input line
- 62.
+ 45.
 (pdftex.def)             Requested size: 436.47551pt x 138.3151pt.
 
-Overfull \hbox (46.47551pt too wide) in paragraph at lines 62--64
+Overfull \hbox (46.47551pt too wide) in paragraph at lines 45--47
  [] 
  []
 
-[3 <./img/Impedanzregler.png>]
-<img/Kuka.png, id=20, 1292.83pt x 1606.0pt>
+<img/Impedanzregler.png, id=14, 396.48125pt x 152.57pt>
+File: img/Impedanzregler.png Graphic file (type png)
+<use img/Impedanzregler.png>
+Package pdftex.def Info: img/Impedanzregler.png  used on input line 60.
+(pdftex.def)             Requested size: 317.18542pt x 122.05615pt.
+[3 <./img/Hybride_Kraft_Lageregelung.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+<img/Impedanzregler_Kuka.png, id=21, 467.7475pt x 336.25626pt>
+File: img/Impedanzregler_Kuka.png Graphic file (type png)
+<use img/Impedanzregler_Kuka.png>
+Package pdftex.def Info: img/Impedanzregler_Kuka.png  used on input line 68.
+(pdftex.def)             Requested size: 233.87317pt x 168.12772pt.
+[4 <./img/Impedanzregler.png> <./img/Impedanzregler_Kuka.png>]
+<img/Kuka.png, id=26, 1292.83pt x 1606.0pt>
 File: img/Kuka.png Graphic file (type png)
 <use img/Kuka.png>
-Package pdftex.def Info: img/Kuka.png  used on input line 70.
+Package pdftex.def Info: img/Kuka.png  used on input line 85.
 (pdftex.def)             Requested size: 195.0pt x 242.23741pt.
-<img/werkstueck.png, id=21, 903.375pt x 1606.0pt>
+<img/werkstueck.png, id=27, 903.375pt x 1606.0pt>
 File: img/werkstueck.png Graphic file (type png)
 <use img/werkstueck.png>
-Package pdftex.def Info: img/werkstueck.png  used on input line 76.
+Package pdftex.def Info: img/werkstueck.png  used on input line 91.
 (pdftex.def)             Requested size: 77.99881pt x 138.65242pt.
- [4 <./img/Hybride_Kraft_Lageregelung.png> <./img/Kuka.png>]
-<img/Kugellager.png, id=26, 969.6225pt x 899.36pt>
+ [5 <./img/Kuka.png>]
+<img/Kugellager.png, id=31, 969.6225pt x 899.36pt>
 File: img/Kugellager.png Graphic file (type png)
 <use img/Kugellager.png>
-Package pdftex.def Info: img/Kugellager.png  used on input line 81.
+Package pdftex.def Info: img/Kugellager.png  used on input line 96.
 (pdftex.def)             Requested size: 117.00119pt x 108.52235pt.
-<img/montiertes_werkstueck.png, id=27, 893.3375pt x 1587.9325pt>
+<img/montiertes_werkstueck.png, id=32, 893.3375pt x 1587.9325pt>
 File: img/montiertes_werkstueck.png Graphic file (type png)
 <use img/montiertes_werkstueck.png>
-Package pdftex.def Info: img/montiertes_werkstueck.png  used on input line 86.
+Package pdftex.def Info: img/montiertes_werkstueck.png  used on input line 101.
+
 (pdftex.def)             Requested size: 117.00119pt x 207.96495pt.
- [5 <./img/werkstueck.png> <./img/Kugellager.png> <./img/montiertes_werkstueck.
+ [6 <./img/werkstueck.png> <./img/Kugellager.png> <./img/montiertes_werkstueck.
 png>]
-<img/Ablauf.png, id=31, 351.3125pt x 854.19125pt>
+<img/Ablauf.png, id=36, 351.3125pt x 854.19125pt>
 File: img/Ablauf.png Graphic file (type png)
 <use img/Ablauf.png>
-Package pdftex.def Info: img/Ablauf.png  used on input line 94.
+Package pdftex.def Info: img/Ablauf.png  used on input line 109.
 (pdftex.def)             Requested size: 210.78911pt x 512.5187pt.
- [6 <./img/Ablauf.png>]
-<img/verschobenes_werkstueck.png, id=37, 382.42876pt x 221.82875pt>
+ [7 <./img/Ablauf.png>]
+<img/verschobenes_werkstueck.png, id=43, 382.42876pt x 221.82875pt>
 File: img/verschobenes_werkstueck.png Graphic file (type png)
 <use img/verschobenes_werkstueck.png>
-Package pdftex.def Info: img/verschobenes_werkstueck.png  used on input line 10
-7.
+Package pdftex.def Info: img/verschobenes_werkstueck.png  used on input line 12
+2.
 (pdftex.def)             Requested size: 191.2139pt x 110.9141pt.
- [7 <./img/verschobenes_werkstueck.png>]
-<img/winkel_werkstueck.png, id=43, 202.7575pt x 202.7575pt>
+ [8 <./img/verschobenes_werkstueck.png>]
+<img/winkel_werkstueck.png, id=48, 202.7575pt x 202.7575pt>
 File: img/winkel_werkstueck.png Graphic file (type png)
 <use img/winkel_werkstueck.png>
-Package pdftex.def Info: img/winkel_werkstueck.png  used on input line 116.
+Package pdftex.def Info: img/winkel_werkstueck.png  used on input line 131.
 (pdftex.def)             Requested size: 162.2062pt x 162.2062pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
 
-Overfull \hbox (20.97212pt too wide) in paragraph at lines 125--126
-[]\OT1/cmr/m/n/12 [2] https://de.wikipedia.org/wiki/Kraftregelung: Ak-tive Impe
+Overfull \hbox (20.97212pt too wide) in paragraph at lines 147--148
+[]\OT1/cmr/m/n/12 [3] https://de.wikipedia.org/wiki/Kraftregelung: Ak-tive Impe
 danzregelung 
  []
 
-[8 <./img/winkel_werkstueck.png>] (./Grobkonzept.aux) ) 
+[9 <./img/winkel_werkstueck.png>]
+Overfull \hbox (6.45007pt too wide) in paragraph at lines 153--155
+[]\OT1/cmr/m/n/12 Julia Katha-rina Berg: Sys-tem zur auf-gabenori-en-tierten Pr
+o-gram-mierung
+ []
+
+
+Overfull \hbox (26.67763pt too wide) in paragraph at lines 153--155
+\OT1/cmr/m/n/12 f^^?ur die Mensch-Roboter-Kooperation, 2020, Tech-nis-che Uni-v
+er-sit^^?at M^^?unchen 
+ []
+
+
+Overfull \hbox (20.93741pt too wide) in paragraph at lines 155--157
+\OT1/cmr/m/n/12 beitssys-te-men in Mensch-Roboter-Kooperation, 2017, Uni-ver-si
+t^^?at Stuttgart 
+ []
+
+
+Overfull \hbox (20.45409pt too wide) in paragraph at lines 157--159
+[]\OT1/cmr/m/n/12 Christian Friedrich: Roboter-ma-nip-u-la-tionsf^^?ahigkeiten 
+zur Au-toma-tisierung
+ []
+
+
+Overfull \hbox (13.20415pt too wide) in paragraph at lines 159--162
+[]\OT1/cmr/m/n/12 Alexander Spiller: Un-terst^^?utzung der Werkst^^?uckhandhabu
+ng kooperieren-
+ []
+
+[10] (./Grobkonzept.aux) ) 
 Here is how much of TeX's memory you used:
- 1268 strings out of 483140
- 19271 string characters out of 5965151
- 245354 words of memory out of 5000000
- 16311 multiletter control sequences out of 15000+600000
+ 1275 strings out of 483140
+ 19490 string characters out of 5965151
+ 246344 words of memory out of 5000000
+ 16318 multiletter control sequences out of 15000+600000
  537843 words of font info for 42 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 30i,7n,25p,489b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/thek1d/.texlive2
-019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb>
-Output written on Grobkonzept.pdf (8 pages, 817687 bytes).
+ 30i,7n,25p,671b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/thek1d/.texlive2019/texmf-var/fonts/pk/ljfour
+/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Grobkonzept.pdf (10 pages, 875504 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

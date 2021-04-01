@@ -1,7 +1,6 @@
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\graphicspath{ {img/} }
 
 \title{Grobkonzept \\ Automatisches finden von Fügepositionen}
 \author{Özgür Gümüslü}
@@ -40,6 +39,14 @@ Drehmomentensensoren die es erlaubt Kräfte in verschiedenen Achsen zu messen ei
 Arbeiten durchzuführen andererseits um Quetschungen und andere Gefärhdungen des Körperlichen Leibes
 zu vermeiden.
 \newpage
+\subsection{Hybride Kraft-/Lageregelung}
+Dieser besteht im wesentlichen aus zwei separaten Reglern. Hierfür wird der Raum in einen beschränkten und unbeschränkten Raum aufgeteilt. Im beschränkten Raum also in dem sich der Manipulator nicht frei bewegen kann, kommt der Kraftregler zum tragen. Im unbeschränkten Raum kommt der Lageregler zum Einsatz.
+\begin{center}
+\includegraphics[scale=0.65]{img/Hybride_Kraft_Lageregelung}
+Hybrider Kraft-/Lagereger [1]
+\end{center}
+Durch die Beschränkungen der Bewegungen und Kräfte lassen sich Selektionsmatrizen ableiten welche in der oberen Abbildung unter $\underline{S}$ und $\widetilde{\underline{S}}$ dargestellt werden.
+
 \subsection{Impedanzregelung}
 Der Kontakt zwischen Roboter und Umgebung kann mittels der Hilfe der mechanischen Impedanz bzw. Feder-Dämpfer-Masse-System modeliert im Zeitbereich als
 $f(t) = m \ddot{x(t)} + d \dot{x(t)} + c x(t)$ bzw.\\ im Bildbereich als $F(s) = (ms^2 + ds + c) X(s)$ werden.\\ Wobei folgendes für
@@ -48,21 +55,29 @@ $f(t) = m \ddot{x(t)} + d \dot{x(t)} + c x(t)$ bzw.\\ im Bildbereich als $F(s) =
 \item d ... Dämpfung
 \item c ... Steifigkeit
 \end{itemize}
-entspricht.[1]
+entspricht.[2]
 \begin{center}
 \includegraphics[scale=0.8]{img/Impedanzregler}\\
-Postionsbasierte Impedanzregelung[2]
+Postionsbasierte Impedanzregelung[3]
 \end{center}
-Mit Hilfe dieses Regelungskonzepts können Positionsänderungen mit Kräften und Drehmomenten in Beziehung gebracht werden.   
+Mit Hilfe dieses Regelungskonzepts können Positionsänderungen mit Kräften und Drehmomenten in Beziehung gebracht werden.
 
-
-\subsection{Hybride Kraft-/Lageregelung}
-Dieser besteht im wesentlichen aus zwei separaten Reglern. Hierfür wird der Raum in einen beschränkten und unbeschränkten Raum aufgeteilt. Im beschränkten Raum also in dem sich der Manipulator nicht frei bewegen kann, kommt der Kraftregler zum tragen. Im unbeschränkten Raum kommt der Lageregler zum Einsatz.
+\subsubsection{Impedanzregler im LBR iiwa 7 R800}
+Der Kuka LBR iiwa 7 R800 hat bereits einen kartesischen Impedanzregler integriert. Sollte sich der Manipulator an der Fügeposition befinden, kommt diese Regelungsmethode zum Einsatz. Hierbei wird zwischen der Istposition und Sollposition eine virtuelle Feder eingesetzt welche sich im enstpannten Zustand befindet. Wenn nun das Fügeteil mit dem Werkstück in Kontakt kommt, resultiert nach dem Federgesetz welche mit der eingestellten Federsteifigkeit $ C $ und Auslenkung $ \Delta x $ eine Kraft die entgegenwirkt und sich folgend berechnen lässt. \[F = C * \Delta x\] Mit dieser Kraft wird nun das Fügeteil in das Werkstück eingesetzt.\\
 \begin{center}
-\includegraphics[scale=0.65]{img/Hybride_Kraft_Lageregelung}
-Hybrider Kraft-/Lagereger [3]
+\includegraphics[scale=0.5]{img/Impedanzregler_Kuka}
+\\Berechnung der Kraft nach dem Federgesetz [4]
+\begin{itemize}
+\item 1...Auslenkung $\Delta x$
+\item 2...Virtuelle Feder mit der Federsteifigkeit $C$
+\item 3...Istposition
+\item 4...Resultierende Kraft
+\item 5...Sollposition
+\end{itemize} 
 \end{center}
-Durch die Beschränkungen der Bewegungen und Kräfte lassen sich Selektionsmatrizen ableiten welche in der oberen Abbildung unter $\widetilde{\underline{S}}$ und $\underline{S}$ dargestellt werden.
+Diese Methode kann für alle drei Achsen im Raum angewendet werden.
+Mittels Kraftschwingungen(Lissajous-Figuren) können Rüttel-/Suchmuster angewendet werden. Auf welche im Grobkonzept nicht weiter eingegangen werden.
+
 
 \section{Komponenten}
 
@@ -88,7 +103,7 @@ Montiertes Werkstück
 \end{center}
 
 \newpage
-\section{Konzept für die Umsetzung}
+\section{Konzeptideen für die Umsetzung}
 
 \begin{center}
 \includegraphics[scale=0.60]{img/Ablauf} \\
@@ -118,12 +133,33 @@ Wenn das Werkstück nicht vollständig eben aufliegt
 Hier sollte die Summe der Kräfte und Drehmomente nicht null sein, da, dass Fügeelement nicht eben auf dem Werkstück liegt. Somit sollte sich der Manipulator so bewegen bis die oben besagten physikalischen Eigenschaften in Summe null ergeben, anschließend kann mit der Spiralsuche fortgeführt werden. Es gilt hier weiter zu untersuchen welches Regelungskonzept wie es in Kapitel 2.1 erwähnt wurden sich für die Bewältigung der Füge Aufgabe besser eignet.
 \end{itemize}
 
+\section{Weiteres Vorgehen}
+\begin{itemize}
+\item Vertiefung und Bewertung der Konzeptideen
+\item Weitere Einarbeitung in Suchverfahren
+\item Ausarbeitung State-of-the-Art
+\end{itemize}
 
 \section{Literaturliste}
 \begin{itemize}
-\item[] [1] Alexander Winkler: Sensorgeführte Bewegung stationärer Roboter. Universitätsverlag Chemnitz, 2016, S. 37
-\item[] [2] https://de.wikipedia.org/wiki/Kraftregelung: Aktive Impedanzregelung
-\item[] [3] Alexander Winkler: Sensorgeführte Bewegung stationärer Roboter. Universitätsverlag Chemnitz, 2016, S. 40
+\item[] [1] Alexander Winkler: Sensorgeführte Bewegung stationärer Roboter. Universitätsverlag Chemnitz, 2016, Hybride Kraft-/ Lageregelung S.39 - 41
+\item[] [2] Alexander Winkler: Sensorgeführte Bewegung stationärer Roboter. Universitätsverlag Chemnitz, 2016, Impedanzregelung S. 37
+\item[] [3] https://de.wikipedia.org/wiki/Kraftregelung: Aktive Impedanzregelung
+\item[] [4] Pub KUKA Sunrise.OS 1.15 SI (PDF) de, S. 534
+\end{itemize}
+
+\subsection{Weitere Interessante Literatur}
+\begin{itemize}
+\item Julia Katharina Berg: System zur aufgabenorientierten Programmierung für
+die Mensch-Roboter-Kooperation, 2020, Technische Universität München
+\item Daniel Schröter: Entwicklung einer Methodik zur Planung von
+Arbeitssystemen in Mensch-Roboter-Kooperation, 2017, Universität Stuttgart
+\item Christian Friedrich: Robotermanipulationsfähigkeiten zur Automatisierung von
+Instandhaltungsaufgaben, 2019 Universität Stuttgart
+\item Alexander Spiller: Unterstützung der Werkstückhandhabung
+kooperierender Industrieroboter durch
+Kraftregelung, 2014, Universität Suttgart
+
 \end{itemize}
 
 \end{document}
